@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aniruddha Atre | Portfolio</title>
+    <meta name="description"
+        content="Professional portfolio of Aniruddha Atre — Software Engineer, Developer, and Tech Enthusiast. Explore projects, education, skills, and more.">
+    <meta name="keywords" content="Aniruddha Atre, portfolio, software engineer, developer, resume">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <span class="logo-bracket">&lt;</span>AA<span class="logo-bracket">/&gt;</span>
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+                <li><a href="#education" class="nav-link" data-section="education">Education</a></li>
+                <li><a href="#experience" class="nav-link" data-section="experience">Experience</a></li>
+                <li><a href="#skills" class="nav-link" data-section="skills">Skills</a></li>
+                <li><a href="#projects" class="nav-link" data-section="projects">Projects</a></li>
+                <li><a href="#certifications" class="nav-link" data-section="certifications">Certifications</a></li>
+                <li><a href="#hobbies" class="nav-link" data-section="hobbies">Hobbies</a></li>
+                <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg-particles" id="particles"></div>
+        <div class="hero-content">
+            <div class="hero-photo-wrapper reveal-up">
+                <div class="photo-ring"></div>
+                <div class="photo-ring ring-2"></div>
+                <img src="pic1.jpg" alt="Aniruddha Atre" class="hero-photo" id="heroPhoto">
+            </div>
+            <div class="hero-text reveal-up delay-1">
+                <p class="hero-greeting">Hello, I'm</p>
+                <h1 class="hero-name">Aniruddha <span class="name-highlight">Atre</span></h1>
+                <p class="hero-title">
+                    <span class="typewriter" id="typewriter"></span><span class="cursor">|</span>
+                </p>
+                <p class="hero-description">
+                    Passionate about building innovative solutions, exploring new technologies,
+                    and turning ideas into impactful digital experiences.
+                </p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-rocket"></i> View My Work
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        <i class="fas fa-envelope"></i> Get in Touch
+                    </a>
+                </div>
+                <div class="hero-social">
+                    <a href="https://github.com/Aniruddha-2929" class="social-link" aria-label="GitHub"><i
+                            class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/aniruddha-atre-270415216/" class="social-link"
+                        aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="social-link" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#about" class="scroll-indicator" aria-label="Scroll down">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>Scroll Down</span>
+        </a>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <span class="section-tag"><i class="fas fa-user"></i> Introduction</span>
+                <h2 class="section-title">About <span class="highlight">Me</span></h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-card reveal-left">
+                    <div class="about-image-wrapper">
+                        <img src="profile.jpg" alt="Aniruddha Atre" class="about-image">
+                    </div>
+                </div>
+                <div class="about-info reveal-right">
+                    <h3 class="about-heading">A Passionate Developer & Tech Enthusiast</h3>
+                    <p class="about-text">
+                        I'm Aniruddha Atre, a dedicated software professional with a passion for
+                        creating elegant and efficient solutions. With a strong foundation in computer science
+                        and a keen eye for detail, I strive to build applications that make a real difference.
+                    </p>
+                    <p class="about-text">
+                        My journey in technology has equipped me with diverse skills in full-stack development,
+                        data engineering, and AI/ML. I believe in continuous learning and pushing the boundaries
+                        of what's possible with code.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="5">0</span><span class="stat-plus">+</span>
+                            <span class="stat-label">Projects</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="10">0</span><span class="stat-plus">+</span>
+                            <span class="stat-label">Technologies</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="3">0</span><span class="stat-plus">+</span>
+                            <span class="stat-label">Years Learning</span>
+                        </div>
+                    </div>
+                    <a href="#contact" class="btn btn-primary">
+                        <i class="fas fa-download"></i> Download Resume
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section section-alt" id="education">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <span class="section-tag"><i class="fas fa-graduation-cap"></i> Academic Journey</span>
+                <h2 class="section-title">My <span class="highlight">Education</span></h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item reveal-left">
+                    <div class="timeline-dot"><i class="fas fa-graduation-cap"></i></div>
+                    <div class="timeline-card">
+                        <span class="timeline-date"><i class="fas fa-calendar-alt"></i> 2025 — 2026</span>
+                        <h3 class="timeline-title">PG Diploma in Big Data Analytics (PG-DBDA)</h3>
+                        <p class="timeline-institution"><i class="fas fa-university"></i> C-DAC, Mumbai</p>
+                        <span class="timeline-grade"><i class="fas fa-star"></i> 73.16%</span>
+                        <p class="timeline-desc">Specialized in Big Data technologies, distributed computing, data
+                            analytics, Hadoop ecosystem, Spark, and real-time data processing.</p>
+                        <div class="timeline-tags">
+                            <span class="tag">Big Data</span>
+                            <span class="tag">Hadoop</span>
+                            <span class="tag">Spark</span>
+                            <span class="tag">Data Analytics</span>
+                            <span class="tag">Python</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item reveal-right">
+                    <div class="timeline-dot"><i class="fas fa-graduation-cap"></i></div>
+                    <div class="timeline-card">
+                        <span class="timeline-date"><i class="fas fa-calendar-alt"></i> 2023 — 2025</span>
+                        <h3 class="timeline-title">M.Sc. in Computer Science</h3>
+                        <p class="timeline-institution"><i class="fas fa-university"></i> MIT WPU, Pune</p>
+                        <span class="timeline-grade"><i class="fas fa-star"></i> CGPA: 8.08 / 10</span>
+                        <p class="timeline-desc">Completed master's degree with focus on advanced computer science
+                            concepts, research methodologies, data science, and software development.</p>
+                        <div class="timeline-tags">
+                            <span class="tag">Computer Science</span>
+                            <span class="tag">Data Science</span>
+                            <span class="tag">Research</span>
+                            <span class="tag">Machine Learning</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item reveal-left">
+                    <div class="timeline-dot"><i class="fas fa-graduation-cap"></i></div>
+                    <div class="timeline-card">
+                        <span class="timeline-date"><i class="fas fa-calendar-alt"></i> 2020 — 2023</span>
+                        <h3 class="timeline-title">B.Sc. in Information Technology</h3>
+                        <p class="timeline-institution"><i class="fas fa-university"></i> SIES College, Mumbai</p>
+                        <span class="timeline-grade"><i class="fas fa-star"></i> CGPA: 8.45 / 10</span>
+                        <p class="timeline-desc">Completed undergraduate degree with a strong foundation in IT
+                            fundamentals, programming, databases, networking, and web technologies.</p>
+                        <div class="timeline-tags">
+                            <span class="tag">Information Technology</span>
+                            <span class="tag">Programming</span>
+                            <span class="tag">DBMS</span>
+                            <span class="tag">Web Tech</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section" id="experience">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <span class="section-tag"><i class="fas fa-briefcase"></i> Work Experience</span>
+                <h2 class="section-title">My <span class="highlight">Experience</span></h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item reveal-left">
+                    <div class="timeline-dot"><i class="fas fa-laptop-code"></i></div>
+                    <div class="timeline-card">
+                        <span class="timeline-date"><i class="fas fa-calendar-alt"></i> Feb 2025 — June 2025</span>
+                        <h3 class="timeline-title">Web Developer — Intern</h3>
+                        <p class="timeline-institution"><i class="fas fa-building"></i> MIT WPU, Environmental
+                            Department, Pune</p>
+                        <p class="timeline-desc">Worked on the Smart Water Tank System project — built the frontend
+                            interface for real-time monitoring and control of water tank levels. Also contributed to
+                            backend development using Python and Django, implementing APIs and data handling for the
+                            IoT-based system.</p>
+                        <div class="timeline-tags">
+                            <span class="tag">HTML/CSS</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">Django</span>
+                            <span class="tag">IoT</span>
+                            <span class="tag">REST APIs</span>
+                        </div>
+                        <div class="timeline-links">
+                            <a href="#" class="timeline-link-btn" target="_blank" rel="noopener noreferrer"><i
+                                    class="fab fa-github"></i> View on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section section-alt" id="skills">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <span class="section-tag"><i class="fas fa-code"></i> What I Know</span>
+                <h2 class="section-title">My <span class="highlight">Skills</span></h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category reveal-up delay-0">
+                    <div class="skill-category-header">
+                        <div class="skill-icon"><i class="fas fa-database"></i></div>
+                        <h3>Data Engineering</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-chip"><i class="fas fa-elephant"></i> Hadoop</div>
+                        <div class="skill-chip"><i class="fas fa-bolt"></i> Apache Spark</div>
+                        <div class="skill-chip"><i class="fas fa-stream"></i> Kafka</div>
+                        <div class="skill-chip"><i class="fas fa-cogs"></i> ETL Pipelines</div>
+                        <div class="skill-chip"><i class="fas fa-project-diagram"></i> Airflow</div>
+                    </div>
+                </div>
+                <div class="skill-category reveal-up delay-1">
+                    <div class="skill-category-header">
+                        <div class="skill-icon"><i class="fas fa-chart-bar"></i></div>
+                        <h3>Data Analytics & Viz</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-chip"><i class="fab fa-python"></i> Python</div>
+                        <div class="skill-chip"><i class="fas fa-table"></i> Pandas</div>
+                        <div class="skill-chip"><i class="fas fa-chart-area"></i> Matplotlib</div>
+                        <div class="skill-chip"><i class="fas fa-chart-pie"></i> Power BI</div>
+                        <div class="skill-chip"><i class="fas fa-file-excel"></i> Excel</div>
+                    </div>
+                </div>
+                <div class="skill-category reveal-up delay-2">
+                    <div class="skill-category-header">
+                        <div class="skill-icon"><i class="fas fa-server"></i></div>
+                        <h3>Database & Cloud</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-chip"><i class="fas fa-database"></i> MySQL</div>
+                        <div class="skill-chip"><i class="fas fa-database"></i> PostgreSQL</div>
+                        <div class="skill-chip"><i class="fas fa-leaf"></i> MongoDB</div>
+                        <div class="skill-chip"><i class="fas fa-cloud"></i> AWS</div>
+                        <div class="skill-chip"><i class="fas fa-hdd"></i> HDFS</div>
+                    </div>
+                </div>
+                <div class="skill-category reveal-up delay-3">
+                    <div class="skill-category-header">
+                        <div class="skill-icon"><i class="fas fa-tools"></i></div>
+                        <h3>Programming & Tools</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-chip"><i class="fab fa-python"></i> Python</div>
+                        <div class="skill-chip"><i class="fab fa-java"></i> Java</div>
+                        <div class="skill-chip"><i class="fas fa-terminal"></i> SQL</div>
+                        <div class="skill-chip"><i class="fab fa-git-alt"></i> Git</div>
+                        <div class="skill-chip"><i class="fab fa-linux"></i> Linux</div>
+                        <div class="skill-chip"><i class="fab fa-html5"></i> HTML/CSS/JS</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section section-alt" id="projects">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <span class="section-tag"><i class="fas fa-briefcase"></i> My Work</span>
+                <h2 class="section-title">Featured <span class="highlight">Projects</span></h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card reveal-up delay-0">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                        <div class="project-placeholder">
+                            <i class="fas fa-hospital"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Data Engineering</span>
+                        <h3 class="project-title">Centralized Healthcare Data Platform</h3>
+                        <p class="project-desc">Designed and developed a centralized healthcare data platform to
+                            securely store and manage patient records, enabling doctors to access reports in real time
+                            without physical documentation. Built an end-to-end data pipeline integrating Python, SQL,
+                            and Big Data technologies.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>MySQL</span>
+                            <span>Apache Spark</span>
+                            <span>Pandas</span>
+                            <span>REST APIs</span>
+                            <span>Data Modeling</span>
+                        </div>
+                        <a href="#" class="project-github-btn" target="_blank" rel="noopener noreferrer"><i
+                                class="fab fa-github"></i> View Repository</a>
+                    </div>
+                </div>
+                <div class="project-card reveal-up delay-1">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                        <div class="project-placeholder">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Financial Analytics + AI</span>
+                        <h3 class="project-title">IPO Analysis & RAG Chatbot</h3>
+                        <p class="project-desc">Built a financial analytics system to analyze IPO performance trends and
+                            integrated a Retrieval-Augmented Generation (RAG) chatbot to provide dynamic insights from
+                            financial datasets using vector embeddings and LLM integration.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Pandas</span>
+                            <span>SQL</span>
+                            <span>RAG</span>
+                            <span>Vector DB</span>
+                            <span>LLM</span>
+                        </div>
+                        <a href="#" class="project-github-btn" target="_blank" rel="noopener noreferrer"><i
+                                class="fab fa-github"></i> View Repository</a>
+                    </div>
+                </div>
+                <div class="project-card reveal-up delay-2">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                        <div class="project-placeholder">
+                            <i class="fas fa-language"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">NLP / Machine Learning</span>
+                        <h3 class="project-title">English to Marathi Translation</h3>
+                        <p class="project-desc">Developed an NLP-based neural machine translation system to convert
+                            English text into Marathi using sequence-to-sequence modeling, tokenization, word
+                            embeddings, and model evaluation techniques to improve translation accuracy.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>NLTK / SpaCy</span>
+                            <span>TensorFlow</span>
+                            <span>Seq2Seq</span>
+                            <span>NLP</span>
+                        </div>
+                        <a href="#" class="project-github-btn" target="_blank" rel="noopener noreferrer"><i
+                                class="fab fa-github"></i> View Repository</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hobbies Section -->
+    <section class="section" id="hobbies">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <span class="section-tag"><i class="fas fa-heart"></i> Beyond Code</span>
+                <h2 class="section-title">My <span class="highlight">Hobbies</span></h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="hobbies-grid">
+                <div class="hobby-card reveal-up delay-0">
+                    <div class="hobby-icon"><i class="fas fa-gamepad"></i></div>
+                    <h3>Gaming</h3>
+                    <p>Competitive and casual gaming enthusiast. Love immersive worlds, strategy games, and late-night
+                        multiplayer sessions.</p>
+                </div>
+                <div class="hobby-card reveal-up delay-1">
+                    <div class="hobby-icon"><i class="fas fa-motorcycle"></i></div>
+                    <h3>Bike Riding</h3>
+                    <p>Nothing beats the thrill of hitting the open road on two wheels. Love exploring scenic routes and
+                        long rides.</p>
+                </div>
+                <div class="hobby-card reveal-up delay-2">
+                    <div class="hobby-icon"><i class="fas fa-video"></i></div>
+                    <h3>Videography</h3>
+                    <p>Passionate about capturing moments through the lens. Enjoy shooting, editing, and creating visual
+                        stories.</p>
+                </div>
+                <div class="hobby-card reveal-up delay-3">
+                    <div class="hobby-icon"><i class="fas fa-baseball-ball"></i></div>
+                    <h3>Cricket</h3>
+                    <p>Die-hard cricket fan and weekend player. Whether it's gully cricket or watching IPL — I'm always
+                        in the game.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="section section-alt" id="certifications">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <span class="section-tag"><i class="fas fa-award"></i> Achievements</span>
+                <h2 class="section-title">My <span class="highlight">Certifications</span></h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="certifications-grid">
+                <div class="cert-card reveal-up delay-0">
+                    <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+                    <div class="cert-info">
+                        <h3 class="cert-title">Big Data Analytics with Hadoop & Spark</h3>
+                        <p class="cert-issuer"><i class="fas fa-building"></i> Coursera / IBM</p>
+                        <span class="cert-date"><i class="fas fa-calendar-alt"></i> 2025</span>
+                    </div>
+                    <a href="#" class="cert-link" target="_blank" rel="noopener noreferrer"><i
+                            class="fas fa-external-link-alt"></i> View Certificate</a>
+                </div>
+                <div class="cert-card reveal-up delay-1">
+                    <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+                    <div class="cert-info">
+                        <h3 class="cert-title">Python for Data Science & Machine Learning</h3>
+                        <p class="cert-issuer"><i class="fas fa-building"></i> Udemy</p>
+                        <span class="cert-date"><i class="fas fa-calendar-alt"></i> 2024</span>
+                    </div>
+                    <a href="#" class="cert-link" target="_blank" rel="noopener noreferrer"><i
+                            class="fas fa-external-link-alt"></i> View Certificate</a>
+                </div>
+                <div class="cert-card reveal-up delay-2">
+                    <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+                    <div class="cert-info">
+                        <h3 class="cert-title">SQL for Data Analytics</h3>
+                        <p class="cert-issuer"><i class="fas fa-building"></i> HackerRank</p>
+                        <span class="cert-date"><i class="fas fa-calendar-alt"></i> 2024</span>
+                    </div>
+                    <a href="#" class="cert-link" target="_blank" rel="noopener noreferrer"><i
+                            class="fas fa-external-link-alt"></i> View Certificate</a>
+                </div>
+                <div class="cert-card reveal-up delay-3">
+                    <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+                    <div class="cert-info">
+                        <h3 class="cert-title">Cloud Computing Fundamentals — AWS</h3>
+                        <p class="cert-issuer"><i class="fas fa-building"></i> AWS / Coursera</p>
+                        <span class="cert-date"><i class="fas fa-calendar-alt"></i> 2025</span>
+                    </div>
+                    <a href="#" class="cert-link" target="_blank" rel="noopener noreferrer"><i
+                            class="fas fa-external-link-alt"></i> View Certificate</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section section-alt" id="contact">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <span class="section-tag"><i class="fas fa-paper-plane"></i> Reach Out</span>
+                <h2 class="section-title">Get In <span class="highlight">Touch</span></h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info reveal-left">
+                    <h3>Let's work together</h3>
+                    <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of
+                        something great.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                            <div>
+                                <span class="contact-label">Email</span>
+                                <a href="mailto:aniruddha.atre@example.com">aniruddha.atre@example.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div>
+                                <span class="contact-label">Location</span>
+                                <span>Mumbai, Maharashtra, India</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                            <div>
+                                <span class="contact-label">Phone</span>
+                                <a href="tel:+91XXXXXXXXXX">+91 XXXXXXXXXX</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-social">
+                        <a href="#" class="social-btn"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-btn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-btn"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-btn"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper reveal-right">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder=" " required>
+                            <label for="name">Your Name</label>
+                            <span class="form-line"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder=" " required>
+                            <label for="email">Your Email</label>
+                            <span class="form-line"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" placeholder=" " required>
+                            <label for="subject">Subject</label>
+                            <span class="form-line"></span>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="4" placeholder=" " required></textarea>
+                            <label for="message">Your Message</label>
+                            <span class="form-line"></span>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <a href="#hero" class="footer-logo">
+                    <span class="logo-bracket">&lt;</span>AA<span class="logo-bracket">/&gt;</span>
+                </a>
+                <p class="footer-text">Designed & Built by Aniruddha Atre &copy; 2026. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
