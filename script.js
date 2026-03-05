@@ -10,7 +10,6 @@ document.addEventListener('DOMContentLoaded', () => {
         'Data Engineer',
         'Data Analyst',
         'Big Data Enthusiast',
-        'Problem Solver',
         'Tech Explorer'
     ];
     let titleIndex = 0;
